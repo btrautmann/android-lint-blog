@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 3.4.2" client="gradle" variant="all" version="3.4.2">
+
+    <!-- Remove this issue from the baseline if you want the project to fail lint -->
+    <issue
+        id="PreventingActivityRestart"
+        message="Preventing Activity restarts using configChanges"
+        errorLine1="                android:configChanges=&quot;orientation|keyboard|screenSize&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="12"
+            column="17"/>
+    </issue>
+
+</issues>
